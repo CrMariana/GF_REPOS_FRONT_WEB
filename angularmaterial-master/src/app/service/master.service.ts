@@ -11,10 +11,10 @@ import { Administrador } from '../model/Administrador';
 })
 export class MasterService {
 
-  rutaGlobalAmbiente = 'https://doboz63dga.execute-api.us-east-2.amazonaws.com/pro/ambiente/'
-  rutaGlobalArea = 'https://doboz63dga.execute-api.us-east-2.amazonaws.com/pro/area/'
-  rutaGlobalPabellon = 'https://doboz63dga.execute-api.us-east-2.amazonaws.com/pro/pabellon/'
-  rutaGlobalLogin = 'https://doboz63dga.execute-api.us-east-2.amazonaws.com/pro/login'
+  rutaGlobalAmbiente = 'https://lzbhal2uwd.execute-api.us-east-2.amazonaws.com/prod/ambiente/'
+  rutaGlobalArea = 'https://lzbhal2uwd.execute-api.us-east-2.amazonaws.com/prod/area/'
+  rutaGlobalPabellon = 'https://lzbhal2uwd.execute-api.us-east-2.amazonaws.com/prod/pabellon/'
+  rutaGlobalLogin = 'https://lzbhal2uwd.execute-api.us-east-2.amazonaws.com/prod/login'
 
   constructor(private http: HttpClient) { }
 
